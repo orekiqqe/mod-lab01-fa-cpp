@@ -48,8 +48,7 @@ unsigned int faStr2(const char* str) {
 					is_word = true;
 				}
 			}
-		}
-		else {
+		} else {
 			is_word = false;
 		}
 	}
@@ -65,8 +64,7 @@ unsigned int faStr3(const char* str) {
 	for (int i = 0; i < strlen(str); ++i) {
 		if (!isspace(str[i])) {
 			current_length++;
-		}
-		else {
+		} else {
 			if (current_length > 0) {
 				word_count++;
 				total_length += current_length;
