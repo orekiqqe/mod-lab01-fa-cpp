@@ -1,8 +1,9 @@
+// Copyright 2022 UNN-IASR
 #include "fun.h"
 #include <cctype>
 #include <cstring>
-#include <string> 
-#include <sstream> 
+#include <string>
+#include <sstream>
 
 unsigned int faStr1(const char* str) {
 	std::stringstream ss(str);
