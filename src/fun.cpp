@@ -66,17 +66,17 @@ unsigned int faStr3(const char* str) {
 			current_length++;
 		} else {
 			if (current_length > 0) {
-				word_count++;
-				total_length += current_length;
-				current_length = 0;
-			}
-		}
-	}
+                word_count++;
+                total_length += current_length;
+                current_length = 0;
+            }
+        }
+    }
 
-	if (current_length > 0) {
-		word_count++;
-		total_length += current_length;
-	}
+    if (current_length > 0) {
+        word_count++;
+        total_length += current_length;
+    }
 
-	return word_count == 0 ? 0 : (total_length + word_count / 2) / word_count;
+    return word_count == 0 ? 0 : (total_length + word_count / 2) / word_count;
 }
