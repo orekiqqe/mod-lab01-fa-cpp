@@ -6,7 +6,7 @@
 #include <sstream>
 
 unsigned int faStr1(const char* str) {
-	std::stringstream ss(str);
+    std::stringstream ss(str);
 	std::string word;
 	unsigned int count = 0;
 
